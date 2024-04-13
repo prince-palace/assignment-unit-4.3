@@ -9,8 +9,21 @@ function addItem(item) {
     return true;
 }
 console.log(basket);
+console.log('added bread', addItem('bread'));
 
 
+
+function listItems(){
+    for(let item of basket){
+
+    
+    console.log('individual item', item);
+    }
+}
+listItems()
+function empty(){
+    basket.length = 0;
+}
 
 
 
